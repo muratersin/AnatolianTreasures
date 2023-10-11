@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB7E924B2ADAB34A00B28633 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7E924A2ADAB34A00B28633 /* CategoryHome.swift */; };
+		FB7E924D2ADAB7BE00B28633 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7E924C2ADAB7BE00B28633 /* CategoryRow.swift */; };
+		FB7E924F2ADAB97200B28633 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7E924E2ADAB97200B28633 /* CategoryItem.swift */; };
+		FB857D042ADA654A00B3235B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB857D032ADA654A00B3235B /* CircleImage.swift */; };
+		FB857D062ADA65DC00B3235B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB857D052ADA65DC00B3235B /* MapView.swift */; };
+		FB857D082ADA686400B3235B /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = FB857D072ADA686400B3235B /* data.json */; };
+		FB857D0B2ADA6A2100B3235B /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB857D0A2ADA6A2100B3235B /* Landmark.swift */; };
+		FB857D0D2ADA6B5C00B3235B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB857D0C2ADA6B5C00B3235B /* ModelData.swift */; };
+		FB857D112ADA6CDC00B3235B /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB857D102ADA6CDC00B3235B /* LandmarkRow.swift */; };
+		FB857D132ADA6DA700B3235B /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB857D122ADA6DA700B3235B /* LandmarkList.swift */; };
+		FB857D152ADA6EBC00B3235B /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB857D142ADA6EBC00B3235B /* LandmarkDetail.swift */; };
+		FB857D172ADAA46300B3235B /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB857D162ADAA46300B3235B /* FavoriteButton.swift */; };
+		FBBAAAFA2AD66AD500D99644 /* AnatolianTreasuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBAAAF92AD66AD500D99644 /* AnatolianTreasuresApp.swift */; };
+		FBBAAAFC2AD66AD500D99644 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBAAAFB2AD66AD500D99644 /* ContentView.swift */; };
+		FBBAAAFE2AD66AD700D99644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBAAAFD2AD66AD700D99644 /* Assets.xcassets */; };
+		FBBAAB012AD66AD700D99644 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBAAB002AD66AD700D99644 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB7E924A2ADAB34A00B28633 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		FB7E924C2ADAB7BE00B28633 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		FB7E924E2ADAB97200B28633 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		FB857D032ADA654A00B3235B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		FB857D052ADA65DC00B3235B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FB857D072ADA686400B3235B /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		FB857D0A2ADA6A2100B3235B /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		FB857D0C2ADA6B5C00B3235B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		FB857D102ADA6CDC00B3235B /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		FB857D122ADA6DA700B3235B /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		FB857D142ADA6EBC00B3235B /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		FB857D162ADAA46300B3235B /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		FBBAAAF62AD66AD500D99644 /* AnatolianTreasures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnatolianTreasures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBAAAF92AD66AD500D99644 /* AnatolianTreasuresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnatolianTreasuresApp.swift; sourceTree = "<group>"; };
+		FBBAAAFB2AD66AD500D99644 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBBAAAFD2AD66AD700D99644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBBAAB002AD66AD700D99644 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBBAAAF32AD66AD500D99644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB7E92492ADAB33A00B28633 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FB7E924A2ADAB34A00B28633 /* CategoryHome.swift */,
+				FB7E924C2ADAB7BE00B28633 /* CategoryRow.swift */,
+				FB7E924E2ADAB97200B28633 /* CategoryItem.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		FB857D092ADA698400B3235B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB857D0A2ADA6A2100B3235B /* Landmark.swift */,
+				FB857D0C2ADA6B5C00B3235B /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB857D0E2ADA6C6600B3235B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB857D072ADA686400B3235B /* data.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB857D0F2ADA6C8400B3235B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB7E92492ADAB33A00B28633 /* Categories */,
+				FB857D192ADAA58800B3235B /* Landmarks */,
+				FB857D182ADAA56B00B3235B /* Helper */,
+				FBBAAAFB2AD66AD500D99644 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB857D182ADAA56B00B3235B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FB857D032ADA654A00B3235B /* CircleImage.swift */,
+				FB857D052ADA65DC00B3235B /* MapView.swift */,
+				FB857D162ADAA46300B3235B /* FavoriteButton.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FB857D192ADAA58800B3235B /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				FB857D102ADA6CDC00B3235B /* LandmarkRow.swift */,
+				FB857D122ADA6DA700B3235B /* LandmarkList.swift */,
+				FB857D142ADA6EBC00B3235B /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		FBBAAAED2AD66AD500D99644 = {
+			isa = PBXGroup;
+			children = (
+				FBBAAAF82AD66AD500D99644 /* AnatolianTreasures */,
+				FBBAAAF72AD66AD500D99644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBBAAAF72AD66AD500D99644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBBAAAF62AD66AD500D99644 /* AnatolianTreasures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBBAAAF82AD66AD500D99644 /* AnatolianTreasures */ = {
+			isa = PBXGroup;
+			children = (
+				FB857D0F2ADA6C8400B3235B /* Views */,
+				FB857D0E2ADA6C6600B3235B /* Resources */,
+				FB857D092ADA698400B3235B /* Model */,
+				FBBAAAF92AD66AD500D99644 /* AnatolianTreasuresApp.swift */,
+				FBBAAAFD2AD66AD700D99644 /* Assets.xcassets */,
+				FBBAAAFF2AD66AD700D99644 /* Preview Content */,
+			);
+			path = AnatolianTreasures;
+			sourceTree = "<group>";
+		};
+		FBBAAAFF2AD66AD700D99644 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBBAAB002AD66AD700D99644 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBBAAAF52AD66AD500D99644 /* AnatolianTreasures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBAAB042AD66AD700D99644 /* Build configuration list for PBXNativeTarget "AnatolianTreasures" */;
+			buildPhases = (
+				FBBAAAF22AD66AD500D99644 /* Sources */,
+				FBBAAAF32AD66AD500D99644 /* Frameworks */,
+				FBBAAAF42AD66AD500D99644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnatolianTreasures;
+			productName = AnatolianTreasures;
+			productReference = FBBAAAF62AD66AD500D99644 /* AnatolianTreasures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBBAAAEE2AD66AD500D99644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FBBAAAF52AD66AD500D99644 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FBBAAAF12AD66AD500D99644 /* Build configuration list for PBXProject "AnatolianTreasures" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBBAAAED2AD66AD500D99644;
+			productRefGroup = FBBAAAF72AD66AD500D99644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBBAAAF52AD66AD500D99644 /* AnatolianTreasures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBBAAAF42AD66AD500D99644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBAAB012AD66AD700D99644 /* Preview Assets.xcassets in Resources */,
+				FBBAAAFE2AD66AD700D99644 /* Assets.xcassets in Resources */,
+				FB857D082ADA686400B3235B /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBBAAAF22AD66AD500D99644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBAAAFC2AD66AD500D99644 /* ContentView.swift in Sources */,
+				FB857D062ADA65DC00B3235B /* MapView.swift in Sources */,
+				FB857D152ADA6EBC00B3235B /* LandmarkDetail.swift in Sources */,
+				FB857D172ADAA46300B3235B /* FavoriteButton.swift in Sources */,
+				FB7E924B2ADAB34A00B28633 /* CategoryHome.swift in Sources */,
+				FBBAAAFA2AD66AD500D99644 /* AnatolianTreasuresApp.swift in Sources */,
+				FB857D0D2ADA6B5C00B3235B /* ModelData.swift in Sources */,
+				FB857D0B2ADA6A2100B3235B /* Landmark.swift in Sources */,
+				FB7E924F2ADAB97200B28633 /* CategoryItem.swift in Sources */,
+				FB857D112ADA6CDC00B3235B /* LandmarkRow.swift in Sources */,
+				FB857D132ADA6DA700B3235B /* LandmarkList.swift in Sources */,
+				FB7E924D2ADAB7BE00B28633 /* CategoryRow.swift in Sources */,
+				FB857D042ADA654A00B3235B /* CircleImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBBAAB022AD66AD700D99644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBBAAB032AD66AD700D99644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBBAAB052AD66AD700D99644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnatolianTreasures/Preview Content\"";
+				DEVELOPMENT_TEAM = 864LYK6H4L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.catnois.AnatolianTreasures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBBAAB062AD66AD700D99644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnatolianTreasures/Preview Content\"";
+				DEVELOPMENT_TEAM = 864LYK6H4L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.catnois.AnatolianTreasures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBBAAAF12AD66AD500D99644 /* Build configuration list for PBXProject "AnatolianTreasures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBAAB022AD66AD700D99644 /* Debug */,
+				FBBAAB032AD66AD700D99644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBAAB042AD66AD700D99644 /* Build configuration list for PBXNativeTarget "AnatolianTreasures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBAAB052AD66AD700D99644 /* Debug */,
+				FBBAAB062AD66AD700D99644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBBAAAEE2AD66AD500D99644 /* Project object */;
+}
